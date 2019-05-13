@@ -10,12 +10,13 @@ In this workshop, I will first introduce WebAssembly concepts and why it’s con
 
 ## install octopus locally
 ```
-# 
+# Security Analysis tool for WebAssembly module and Blockchain Smart Contracts
 git clone https://github.com/quoscient/octopus
 ```
 
 ## install wasmer
 ```
+# Universal WebAssembly runtime
 # https://github.com/wasmerio/wasmer
 curl https://get.wasmer.io -sSfL | sh
 ```
@@ -27,9 +28,11 @@ sudo apt install python3 python3-pip
 
 ## install pywasm & python-ext-wasm
 ```
+# WebAssembly interpreter written in pure Python
 # https://github.com/mohanson/pywasm
 pip3 install pywasm
 
+# Python library to run WebAssembly binaries.
 # https://github.com/wasmerio/python-ext-wasm
 pip3 install wasmer
 ```
