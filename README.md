@@ -1,7 +1,6 @@
-# northsec2019_wasm_workshop
-NorthSec 2019 "Reversing WebAssembly Module 101" Workshop
+# Reversing WebAssembly Module 101
 
-Title: [Reversing WebAssembly Module 101](https://nsec.io/session/2019-reversing-webassembly-module-101.html)
+NorthSec 2019 ["Reversing WebAssembly Module 101"](https://nsec.io/session/2019-reversing-webassembly-module-101.html) Workshop
 
 WebAssembly (WASM) is a new binary format currently supported by all major browsers (Firefox, Chrome, WebKit /Safari and Microsoft Edge) and executed inside JS scripts. It is already used for malicious purposes like Cryptojacking and can be found inside some web-browsers addons.
 
@@ -44,6 +43,10 @@ cd wabt
 Follow the installation [here](https://github.com/WebAssembly/wabt#building-using-cmake-directly-linux-and-macos)
 
 # Exercices
+
+## Crackmes
+### FlareOn5 2018 
+### Bsides Ottawa CTF wall1
 
 ## Cryptominer
 
