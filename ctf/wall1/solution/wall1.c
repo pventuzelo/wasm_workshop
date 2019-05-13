@@ -1,0 +1,5 @@
+int is_this_the_flag(int c1, int c2, int c3, int c4, int c5, int c6, int c7, int c8, int c9, int c10, int c11, int c12, int c13, int c14, int c15, int c16, int c17, int c18, int c19, int c20, int c21, int c22, int c23, int c24, int c25, int c26, int c27, int c28, int c29, int c30, int c31, int c32, int c33, int c34, int c35, int c36, int c37, int c38, int c39, int c40) {
+ 
+   if(c1 == 'f' && c2 == 'l' && c3 == 'a' && c4 == 'g' && c5 == '{' && c6 == 'g' && c7 == '0' && c8 == '0' && c9 == 'd' && c10 == 'W' && c11 == '0' && c12 == 'r' && c13 == 'k' && c14 == 'B' && c15 == 'u' && c16 == 't' && c17 == 'W' && c18 == 'e' && c19 =='A' && c20 == 'r' && c21 == '3' && c22 == 'J' && c23 == 'u' && c24 == 's' && c25 == 't' && c26 == 'G' && c27 == '3' && c28 == 't' && c29 == 't' && c30 == '1' && c31 == 'n' && c32 == 'g' && c33 == 'S' && c34 == 't' && c35 == '4' && c36 == 'r' && c37 == 't' && c38 == 'e' && c39 == 'd' && c40 == '}') return 1;
+   return -99999;
+}

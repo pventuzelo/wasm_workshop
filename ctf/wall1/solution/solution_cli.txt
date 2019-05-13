@@ -1,0 +1,1 @@
+./octopus_wasm.py -d -f wall1.wall | grep 'i32.const' | awk '{printf("%c",$2)}'

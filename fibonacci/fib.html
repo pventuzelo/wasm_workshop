@@ -1,0 +1,24 @@
+<!doctype html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Fibonacci example</title>
+  </head>
+  <body>
+    <script>
+      fetch('fib.wasm').then(response =>
+        response.arrayBuffer()
+      ).then(bytes =>
+        WebAssembly.instantiate(bytes, {})
+      ).then(results => {
+
+        const fib = results.instance.exports.fib;
+        console.log('fib(6) = ', fib(6)); // "8"
+        console.log('fib(7) = ', fib(7)); // "13"
+        console.log('fib(8) = ', fib(8)); // "21"
+
+      });
+    </script>
+  </body>
+</html>

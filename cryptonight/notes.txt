@@ -1,0 +1,1 @@
+https://github.com/x25/coinhive-stratum-mining-proxy/tree/master/static/miner

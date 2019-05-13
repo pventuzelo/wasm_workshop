@@ -1,0 +1,2 @@
+disallow:
+ /flag.png
