@@ -8,11 +8,16 @@ In this workshop, I will first introduce WebAssembly concepts and why it’s con
 
 # Tools installation
 
+## install a compatible web-browser
+* [Firefox](https://www.mozilla.org/en-US/firefox/new/)
+* [Google Chrome](https://www.google.com/chrome/)
+
 ## install octopus locally
 ```
 # Security Analysis tool for WebAssembly module and Blockchain Smart Contracts
 git clone https://github.com/quoscient/octopus
 ```
+Follow the installation [here](https://github.com/quoscient/octopus#quick-start)
 
 ## install wasmer
 ```
@@ -49,8 +54,12 @@ Follow the installation [here](https://github.com/WebAssembly/wabt#building-usin
 
 ## Crackmes
 ### FlareOn5 2018 
+TODO
 ### Bsides Ottawa CTF wall1
+TODO
 
 ## Cryptominer
+TODO
 
 ## Firefox addons
+TODO
