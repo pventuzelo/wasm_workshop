@@ -16,7 +16,7 @@ In this workshop, I will first introduce WebAssembly concepts and why it’s con
 
 # Conferences
 - [NorthSec 2019](https://nsec.io/session/2019-reversing-webassembly-module-101.html)
-- [Hack.lu 2019](https://2019.hack.lu/talks/#reversing-webassembly-module-101)
+- [Hack.lu 2019](https://cfp.hack.lu/hacklu19/talk/CVA39H/)
 
 # Tools installation
 
@@ -70,6 +70,15 @@ cd wabt
 Follow the installation guide [here](https://github.com/WebAssembly/wabt#building-using-cmake-directly-linux-and-macos)
 
 OR you can used the wasm2wat [online demo](https://webassembly.github.io/wabt/demo/wasm2wat/)
+
+## Install radare2 & Cutter
+```
+# Install Radare2
+git clone https://github.com/radareorg/radare2
+cd radare2
+./sys/install.sh
+```
+Download Cutter [here](https://github.com/radareorg/cutter/releases/download/v1.9.0/Cutter-v1.9.0-x64.Linux.AppImage)
 
 
 # Exercices
