@@ -31,34 +31,12 @@ git clone https://github.com/quoscient/octopus
 ```
 Follow the installation guide [here](https://github.com/quoscient/octopus#quick-start)
 
-## Install wasmer
-```
-# Universal WebAssembly runtime
-# https://github.com/wasmerio/wasmer
-curl https://get.wasmer.io -sSfL | sh
-```
-
-## Install python & pip3
-```
-sudo apt install python3 python3-pip
-```
-
-## Install pywasm & python-ext-wasm
+## Install python & pip3 & pywasm
 ```
 # WebAssembly interpreter written in pure Python
 # https://github.com/mohanson/pywasm
+sudo apt install python3 python3-pip
 pip3 install pywasm
-
-# Python library to run WebAssembly binaries.
-# https://github.com/wasmerio/python-ext-wasm
-pip3 install wasmer
-```
-
-## Install wasabi
-```
-# A dynamic analysis framework for WebAssembly programs.
-# install over docker: https://github.com/danleh/wasabi#alternative-setup-via-docker
-git clone https://github.com/danleh/wasabi
 ```
 
 ## Install wabt
@@ -71,6 +49,14 @@ Follow the installation guide [here](https://github.com/WebAssembly/wabt#buildin
 
 OR you can used the wasm2wat [online demo](https://webassembly.github.io/wabt/demo/wasm2wat/)
 
+
+## Install wasabi
+```
+# A dynamic analysis framework for WebAssembly programs.
+# install over docker: https://github.com/danleh/wasabi#alternative-setup-via-docker
+git clone https://github.com/danleh/wasabi
+```
+
 ## Install radare2 & Cutter
 ```
 # Install Radare2
@@ -80,6 +66,20 @@ cd radare2
 ```
 Download Cutter [here](https://github.com/radareorg/cutter/releases/download/v1.9.0/Cutter-v1.9.0-x64.Linux.AppImage)
 
+## Install wasmer (optional)
+```
+# Universal WebAssembly runtime
+# https://github.com/wasmerio/wasmer
+curl https://get.wasmer.io -sSfL | sh
+```
+
+## Install python-ext-wasm (optional)
+```
+# Python library to run WebAssembly binaries.
+# https://github.com/wasmerio/python-ext-wasm
+pip3 install wasmer
+```
+
 
 # Exercices
 
@@ -87,7 +87,7 @@ Download Cutter [here](https://github.com/radareorg/cutter/releases/download/v1.
 
 ### OTTAWA BSIDES CTF2018: THE WALL #1
 ```
-ctf/wall1
+cd ctf/wall1
 ```
 
 ### FlareOn5 2018 
