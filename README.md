@@ -29,7 +29,7 @@ In this workshop, I will first introduce WebAssembly concepts and why it’s con
 # Security Analysis tool for WebAssembly module and Blockchain Smart Contracts
 git clone https://github.com/quoscient/octopus
 ```
-Follow the installation guide [here](https://github.com/quoscient/octopus#quick-start)
+Follow the installation guide [here](https://github.com/pventuzelo/octopus#quick-start)
 
 ## Install python & pip3 & pywasm
 ```
